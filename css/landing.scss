@@ -12,19 +12,16 @@ main {
   display: inline-flex;
   width: 100%;
 }
-
 .about__title {
   margin: 1.25rem;
   min-width: auto;
   font-weight: lighter;
   font-size: 3.75rem;
 }
-
 .about__paragraph {
   width: 40%;
   margin: 1.25rem;
 }
-
 .about__shop-now {
   width: 11.25rem;
   color: white;
@@ -37,7 +34,6 @@ main {
   border: none;
   cursor: pointer;
 }
-
 .about__content {
   width: 37.5rem;
   margin-left: 6.25rem;
@@ -66,7 +62,6 @@ main {
   font-weight: lighter;
   font-size: 3.75rem;
 }
-
 .products__container {
   display: inline-flex;
   justify-content: center;
@@ -78,7 +73,6 @@ main {
   justify-content: center;
   padding: 20px;
 }
-
 .products__item {
   display: flex;
   flex-direction: column;
@@ -87,13 +81,12 @@ main {
   justify-content: flex-end;
   margin: 2rem;
   border-radius: 0.625rem;
-  width: 100%;
+  width:100%;
   border: 0.0625rem solid #ddd;
   overflow: hidden;
   width: 18.75rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
-
 .products__image-container {
   background-color: white;
   padding: 0.625rem;
@@ -102,35 +95,36 @@ main {
 .products__cost {
   background-color: #fff0ed;
   width: inherit;
+  
 }
-
 .products__view-all {
   display: block;
   box-sizing: border-box;
 }
+
 
 .products__gallery {
   display: flex;
   justify-content: center;
   padding: 1.25rem;
 }
-
 .products__name {
   font-size: 1.125rem;
   margin: 0.625rem 0;
-  margin-left: 2rem;
+  margin-left:2rem;
   margin-bottom: 0;
-}
 
-.products__prices {
+
+}
+.products__prices{
   color: #5bacc3;
-  text-align: center;
+  text-align:center;
   font-weight: bold;
-  margin-left: 70%;
+  margin-left:70%;
   padding-bottom: 1rem;
   margin-top: 0;
+ 
 }
-
 .view-all {
   width: 11.25rem;
   color: white;
@@ -145,7 +139,6 @@ main {
   text-align: center;
   margin-top: 1.25rem;
 }
-
 .view-all:hover {
   background-color: #0056b3;
 }
@@ -158,7 +151,6 @@ main {
   margin: 10rem;
   padding: 1rem;
 }
-
 .discount__code {
   text-align: center;
 }
@@ -174,7 +166,6 @@ main {
   font-weight: lighter;
   margin-bottom: 0.625rem;
 }
-
 .bolded {
   font-weight: bold;
 }
@@ -187,4 +178,4 @@ main {
 .footer {
   display: flex;
   width: 100%;
-}/*# sourceMappingURL=landing.css.map */
+}
