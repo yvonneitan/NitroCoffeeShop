@@ -1,12 +1,8 @@
+@use "./partials/global" as *;
+
 main {
   font-weight: lighter;
 }
-
-.header {
-  background-color: #fff0ed;
-  width: 100%;
-}
-
 .about {
   background-color: #fff0ed;
   display: inline-flex;
@@ -25,7 +21,6 @@ main {
 .about__shop-now {
   width: 11.25rem;
   color: white;
-  padding: 1.25rem;
   background-color: #5bacc3;
   margin: 1.25rem;
   padding: 1.25rem 1.25rem;
@@ -81,7 +76,7 @@ main {
   justify-content: flex-end;
   margin: 2rem;
   border-radius: 0.625rem;
-  width:100%;
+  width: 100%;
   border: 0.0625rem solid #ddd;
   overflow: hidden;
   width: 18.75rem;
@@ -95,13 +90,12 @@ main {
 .products__cost {
   background-color: #fff0ed;
   width: inherit;
-  
+  height: 6.25rem;
 }
 .products__view-all {
   display: block;
   box-sizing: border-box;
 }
-
 
 .products__gallery {
   display: flex;
@@ -111,19 +105,17 @@ main {
 .products__name {
   font-size: 1.125rem;
   margin: 0.625rem 0;
-  margin-left:2rem;
+  margin-left: 2rem;
   margin-bottom: 0;
-
-
 }
-.products__prices{
+
+.products__prices {
   color: #5bacc3;
-  text-align:center;
+  text-align: center;
   font-weight: bold;
-  margin-left:70%;
+  margin-left: 70%;
   padding-bottom: 1rem;
   margin-top: 0;
- 
 }
 .view-all {
   width: 11.25rem;
@@ -139,8 +131,42 @@ main {
   text-align: center;
   margin-top: 1.25rem;
 }
-.view-all:hover {
-  background-color: #0056b3;
+.different {
+  padding: 40px;
+  margin-left: 6.25rem;
+  width: 37.5rem;
+  margin-top: 9rem;
+}
+
+.different__about {
+  max-width: 37.5rem;
+  margin: 0 auto;
+}
+
+.different__title {
+  color: #393939;
+  margin-bottom: 1.25rem;
+  min-width: auto;
+  font-weight: lighter;
+  font-size: 3.75rem;
+}
+
+.different__descriptions {
+  font-size: 1.2em;
+  margin-bottom: 1.25rem;
+  color: #393939;
+}
+
+.different__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.different__image {
+  width: 3.75rem;
+  height: auto;
 }
 
 .discount {

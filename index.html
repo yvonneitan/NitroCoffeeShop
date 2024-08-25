@@ -7,8 +7,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/landing.css" />
-    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./scss/landing.css" />
+    <link rel="stylesheet" href="./scss/partials/_global.scss" />
 
     <title>Coffee Shop - Home</title>
   </head>
@@ -113,12 +113,34 @@
         </div>
       </section>
       <section class="different">
+
       <div class="different__about">
         <h2 class="different__title">We're Different</h2>
         <p class="different__descriptions">We grow and roast our own coffee beans. Every bean, every cup, every step of the way, we strive for exellence.</p>
+        <div class="different__icons">
+
+            <img class="different__image" src="./assets/logos/planting.svg">
+            <img class="different__image" src="./assets/logos/coffee-beans.svg">
+            <img class="different__image" src="./assets/logos/coffee-cup.svg">
+        
+          </div>
+          <div class="different__button">
+            <a href="../index.html"
+            ><button class="about__shop-now">LEARN MORE</button></a
+          >
+          </div>
       </div>
-      <div class="different__icons"></div>
-      <img src="" alt=""><img src="" alt=""><img src="" alt="">
+      <div class="different_coldbrewbackground">
+        <img class="different__background" src="./assets/images/coldbrewbackground.png">
+      
+      <div class="different__tiltedcan">
+        <img class="different__can" src="./assets/images/tiltedcan.png">
+
+      </div>
+      </div>
+      
+
+      
     </section>
       <div class="discount">
         <p class="discount__code">
@@ -163,6 +185,5 @@
           </div>
         </section>
       </footer>
-    </main>
-  </body>
-</html>
+    </body>
+  </html>

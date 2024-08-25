@@ -1,10 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
+
+*{
+  margin:0;
+  padding:0
 }
+$nitro-pink: #fff0ed;
+$nitro-blue:#5bacc3;
+
 
 .header {
-  background-color: #fff0ed;
+  background-color:$nitro-pink;
   display: inline-flex;
   width: 100%;
   align-items: normal;
@@ -12,11 +16,10 @@
 
 body {
   font-family: "Open Sans";
-  font-weight: 400;
+  font-weight: 25rem;
   display: flex;
   flex-direction: column;
 }
-
 .header__logo {
   display: flex;
   align-items: center;
@@ -44,17 +47,16 @@ body {
   font-weight: normal;
   margin-left: 3.75rem;
 }
-
 .header__item a:hover {
-  color: #5bacc3;
+  color: $nitro-blue;
 }
+
 
 .header__logo-word {
   font-weight: lighter;
   font-size: 3.75rem;
   color: #393939;
 }
-
 .header__logo-item {
   display: inline-flex;
   max-width: 100%;
@@ -65,4 +67,4 @@ body {
 a {
   text-decoration: none;
   color: #393939;
-}/*# sourceMappingURL=global.css.map */
+}
