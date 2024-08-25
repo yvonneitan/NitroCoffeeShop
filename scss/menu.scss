@@ -51,7 +51,7 @@
   font-size: 1rem;
   padding: 0.625rem;
   text-align: center;
-  border-left: 0.3125rem solid #5bacc3;
+  border-left: 0.3125rem solid $nitro-blue;
 }
 
 .category-section {
@@ -82,7 +82,7 @@
   font-weight: lighter;
 }
 .mennu-item__prices{
-  color: #5bacc3;
+  color: $nitro-blue;
   text-align:center;
 }
 
