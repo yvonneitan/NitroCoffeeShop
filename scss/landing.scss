@@ -1,16 +1,18 @@
+
 @use "./partials/global" as *;
+
 
 main {
   font-weight: lighter;
 }
 
 .header {
-  background-color:$nitro-pink;
+  background-color: #fff0ed;
   width: 100%;
 }
 
 .about {
-  background-color:$nitro-pink;
+  background-color: #fff0ed;
   display: inline-flex;
   width: 100%;
 }
@@ -28,10 +30,10 @@ main {
   width: 11.25rem;
   color: white;
   padding: 1.25rem;
-  background-color: $nitro-blue;
+  background-color: #5bacc3;
   margin: 1.25rem;
   padding: 1.25rem 1.25rem;
-  background-color: $nitro-blue;
+  background-color: #5bacc3;
   color: white;
   border: none;
   cursor: pointer;
@@ -95,7 +97,7 @@ main {
 }
 
 .products__cost {
-  background-color:$nitro-pink;
+  background-color: #fff0ed;
   width: inherit;
   
 }
@@ -119,7 +121,7 @@ main {
 
 }
 .products__prices{
-  color: $nitro-blue;
+  color: #5bacc3;
   text-align:center;
   font-weight: bold;
   margin-left:70%;
@@ -131,7 +133,7 @@ main {
   width: 11.25rem;
   color: white;
   padding: 1.25rem;
-  background-color: $nitro-blue;
+  background-color: #5bacc3;
   color: white;
   border: none;
   cursor: pointer;
@@ -158,7 +160,7 @@ main {
 }
 
 .footer__contact {
-  background-color:$nitro-pink;
+  background-color: #fff0ed;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
