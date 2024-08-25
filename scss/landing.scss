@@ -124,7 +124,6 @@ main {
   background-color: #5bacc3;
   color: white;
   border: none;
-  cursor: pointer;
 }
 
 .products__view-all {
@@ -132,10 +131,10 @@ main {
   margin-top: 1.25rem;
 }
 .different {
+  display:inline-flex;
   padding: 40px;
   margin-left: 6.25rem;
-  width: 37.5rem;
-  margin-top: 9rem;
+  margin-top: 6.25rem;
 }
 
 .different__about {
@@ -168,6 +167,27 @@ main {
   width: 3.75rem;
   height: auto;
 }
+.different_coldbrewbackground {
+  position: relative; 
+}
+
+.different__background {
+  width: 25rem;
+  margin-left: 37.5rem;
+}
+
+.different__tiltedcan {
+  position: absolute;
+  width: auto;
+  top: 15%;
+  left: 72%;
+}
+
+.different__can {
+  width: 160px;
+  height: 300px;
+}
+
 
 .discount {
   background-color: #393939;
