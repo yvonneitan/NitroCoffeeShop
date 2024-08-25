@@ -12,7 +12,7 @@
 
 body {
   font-family: "Open Sans";
-  font-weight: 400;
+  font-weight: 25rem;
   display: flex;
   flex-direction: column;
 }
@@ -69,11 +69,6 @@ a {
 
 main {
   font-weight: lighter;
-}
-
-.header {
-  background-color: #fff0ed;
-  width: 100%;
 }
 
 .about {
@@ -216,8 +211,42 @@ main {
   margin-top: 1.25rem;
 }
 
-.view-all:hover {
-  background-color: #0056b3;
+.different {
+  padding: 40px;
+  margin-left: 6.25rem;
+  width: 37.5rem;
+  margin-top: 9rem;
+}
+
+.different__about {
+  max-width: 37.5rem;
+  margin: 0 auto;
+}
+
+.different__title {
+  color: #393939;
+  margin-bottom: 1.25rem;
+  min-width: auto;
+  font-weight: lighter;
+  font-size: 3.75rem;
+}
+
+.different__descriptions {
+  font-size: 1.2em;
+  margin-bottom: 1.25rem;
+  color: #393939;
+}
+
+.different__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.different__image {
+  width: 3.75rem;
+  height: auto;
 }
 
 .discount {
