@@ -15,19 +15,23 @@
   height: 12.5rem;
   margin: auto;
 }
-
-.menu__logo
-
-  &::before{
-  content: "";                 
-  position: absolute;
+.menu__logo {
+  background-color: $secondary-color;
   width: 18.75rem;
-  height: 12.5rem;            
-  border: 0.3125rem solid $nitro-blue;    
-  box-sizing: border-box;
-  top: 23rem;
-  left: 29.75rem;
+  height: 12.5rem;
+  margin: auto;
+  position: relative;
 
+  &::before {
+    content: "";
+    position: absolute;
+    width: 18.75rem;
+    height: 12.5rem;
+    border: 0.3125rem solid $nitro-blue;
+    box-sizing: border-box;
+    top: 23rem;
+    left: 29.75rem;
+  }
 }
 .menu__logo-title {
   @extend %centered-text;
