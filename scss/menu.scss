@@ -1,0 +1,106 @@
+@use "./partials/global" as *;
+
+
+
+
+.menu {
+  background-image: url(../assets/images/coffee-circle.jpg);
+  width: 100%;
+  height: 43.75rem;
+  background-position: center;
+  background-size: cover;
+  display: inline-flex;
+}
+
+.menu__logo {
+  background-color: $secondary-color;
+  width: 18.75rem;
+  height: 12.5rem;
+  margin: auto;
+}
+
+.menu__logo
+
+  &::before{
+  content: "";                 
+  position: absolute;
+  width: 18.75rem;
+  height: 12.5rem;            
+  border: 0.3125rem solid $nitro-blue;    
+  box-sizing: border-box;
+  top: 23rem;
+  left: 29.75rem;
+
+}
+.menu__logo-title {
+  @extend %centered-text;
+  position: relative;
+  color: $bg-white;
+  font-weight: lighter;
+  font-size: $font-large;
+}
+
+.menu__tabs {
+  background-color: $secondary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__drinks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  padding: 2.5rem;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+}
+.menu__drinks-links {
+  display: flex;
+  align-items: center;
+}
+.menu__drinks-type {
+  color: $bg-white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-small;
+  padding: 0.625rem;
+  text-align: center;
+  border-left: 0.3125rem solid $nitro-blue;
+}
+
+
+.category-wrapper-pink {
+  background-color: $nitro-pink;
+  width: 100%;
+}
+.category-wrapper-white {
+  background-color: $bg-white;
+  width: 100%;
+}
+.category-section#cold-drinks {
+  background-color:$bg-white;
+ 
+}
+
+.category-section {
+  background-color: $nitro-pink;
+  display: flex;
+  flex-direction: column;
+  margin-left: 23%;
+  width: 50%;
+  
+
+}
+
+.menu-items {
+  font-weight: lighter;
+  font-size: $font-medium;
+  text-align: center;
+}
+
+.drinks-category {
+  text-align: center;
+  

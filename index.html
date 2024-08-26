@@ -7,8 +7,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/landing.css" />
-    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./scss/landing.css" />
+    <link rel="stylesheet" href="./scss/partials/_global.scss" />
 
     <title>Coffee Shop - Home</title>
   </head>
@@ -28,8 +28,8 @@
         <ul class="header__list">
           <li class="header__item"><a href="./index.html#about">ABOUT</a></li>
           <li class="header__item"><a href="./pages/menu.html">MENU</a></li>
-          <li class="header__item">
-            <a href="./index.html#shop-now">SHOP NOW</a>
+          <li class="header__shop-now">
+            <a href="./pages/menu.html">SHOP NOW</a>
           </li>
         </ul>
       </nav>
@@ -45,8 +45,7 @@
               seeds of berries from certain Coffee species.
             </p>
             <a href="./pages/menu.html"
-              ><button class="about__shop-now">SHOP NOW</button></a
-            >
+              ><button class="about__shop-now">SHOP NOW</button></a>
           </div>
         </div>
         <div class="about__coffee-bag">
@@ -68,6 +67,7 @@
                 </div>
                 <div class="products__cost">
                     <h3 class="products__name">Coffee Beans</h3>
+                    <p class="quantity">Pack of 3</p>
                     <p class="products__prices">$18.99</p>
                 </div>
               </div>
@@ -84,6 +84,7 @@
                   </div>
                   <div class="products__cost">
                     <h3 class="products__name">Cold Brew</h3>
+                    <p class="quantity">1 can</p>
                     <p class="products__prices">$4.99</p>
                   </div>
                 </div>
@@ -100,6 +101,7 @@
                     </div>
                     <div class="products__cost">
                         <h3 class="products__name">In-house Brew</h3>
+                        <p class="quantity">1cup</p>
                         <p class="products__prices">$2.99</p>
                     </div>
                 </div>
@@ -113,12 +115,34 @@
         </div>
       </section>
       <section class="different">
+
       <div class="different__about">
         <h2 class="different__title">We're Different</h2>
         <p class="different__descriptions">We grow and roast our own coffee beans. Every bean, every cup, every step of the way, we strive for exellence.</p>
+        <div class="different__icons">
+
+            <img class="different__image" src="./assets/logos/planting.svg">
+            <img class="different__image" src="./assets/logos/coffee-beans.svg">
+            <img class="different__image" src="./assets/logos/coffee-cup.svg">
+        
+          </div>
+          <div class="different__button">
+            <a href="../index.html"
+            ><button class="different__learn-more">LEARN MORE</button></a
+          >
+          </div>
       </div>
-      <div class="different__icons"></div>
-      <img src="" alt=""><img src="" alt=""><img src="" alt="">
+      <div class="different_coldbrewbackground">
+        <img class="different__background" src="./assets/images/coldbrewbackground.png">
+      
+      <div class="different__tiltedcan">
+        <img class="different__can" src="./assets/images/tiltedcan.png">
+
+      </div>
+      </div>
+      
+
+      
     </section>
       <div class="discount">
         <p class="discount__code">
@@ -145,16 +169,16 @@
           <div class="footer__social">
             <h3 class="footer__section-title">Social</h3>
 
-            <a class="social__link" href="https://facebook.com" target="_blank">
+            <a class="social__image" href="https://facebook.com" target="_blank">
               <img src="./assets/logos/Facebook-Icon.svg" alt="facebook" />
             </a>
 
-            <a class="social__link" href="https://yelp.com" target="_blank">
+            <a class="social__image" href="https://yelp.com" target="_blank">
               <img src="./assets/logos/Yelp-Icon.svg" alt="yelp" />
             </a>
 
             <a
-              class="social__link"
+              class="social__image"
               href="https://instagram.com"
               target="_blank"
             >
@@ -163,6 +187,5 @@
           </div>
         </section>
       </footer>
-    </main>
-  </body>
-</html>
+    </body>
+  </html>
