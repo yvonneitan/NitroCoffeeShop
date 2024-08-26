@@ -40,8 +40,11 @@ body {
   margin-left: 3.75rem;
 }
 
-.header__item a:hover {
+.header__shop-now {
+  text-decoration: none;
   color: #5bacc3;
+  font-weight: normal;
+  margin-left: 3.75rem;
 }
 
 .header__logo-word {
@@ -60,6 +63,10 @@ body {
 a {
   text-decoration: none;
   color: #393939;
+}
+
+a.header__shop-now {
+  color: #5bacc3;
 }
 
 .menu {

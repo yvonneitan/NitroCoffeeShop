@@ -33,7 +33,7 @@ main {
   position: absolute;
   width: 11.25rem;
   height: 3.5rem;            
-  border: 0.15rem solid #393939;    
+  border: 0.125rem solid #393939;    
   box-sizing: border-box;
   top:32.25rem;
   left:7.75rem;
@@ -76,7 +76,7 @@ main {
 .products__gallery {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 1.25rem;
 }
 .products__item {
   display: flex;
@@ -87,7 +87,7 @@ main {
   margin: 2rem;
   border-radius: 0.625rem;
   width: 100%;
-  border: 0.0625rem solid #ddd;
+  border:0.125rem solid #ddd;
   overflow: hidden;
   width: 18.75rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
@@ -140,10 +140,10 @@ main {
   position: absolute;
   width: 11.25rem;
   height: 3.5rem;            
-  border: 0.15rem solid #393939;    
+  border: 0.125rem solid #393939;    
   box-sizing: border-box;
-  top: 223.75%;
-  left: 43.25%;
+  top: 97.3rem;
+  left: 39rem;
 
 }
 
@@ -213,4 +213,57 @@ main {
   width: 11.25rem;
   color: white;
   background-color: #5bacc3;
+  margin: 1.25rem;
+  padding: 1.25rem 1.25rem;
+  background-color: #5bacc3;
+  color: white;
+  border: none;
  
+}
+.different__learn-more::before{
+  content: "";                 
+  position: absolute;
+  width: 11.25rem;
+  height: 3.5rem;            
+  border: 0.125rem solid #393939;    
+  box-sizing: border-box;
+  top: 140rem;
+  left: 10rem;
+
+}
+.discount {
+  background-color: #393939;
+  color: white;
+  font-size: 2.8em;
+  font-weight: 400;
+  margin: 10rem;
+  padding: 1rem;
+}
+.discount__code {
+  text-align: center;
+}
+
+.footer__contact {
+  background-color: #fff0ed;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__section-title {
+  font-weight: lighter;
+  margin-bottom: 0.625rem;
+}
+.bolded {
+  font-weight: bold;
+}
+
+.social__link img {
+  width: 3.125rem;
+  margin-right: 0.625rem;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+}

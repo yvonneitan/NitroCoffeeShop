@@ -1,14 +1,8 @@
-
-// *{
-//   margin:1rem;
-//   padding:1rem;
-// }
 $nitro-pink: #fff0ed;
-$nitro-blue:#5bacc3;
-
+$nitro-blue: #5bacc3;
 
 .header {
-  background-color:$nitro-pink;
+  background-color: $nitro-pink;
   display: inline-flex;
   width: 100%;
   align-items: normal;
@@ -47,10 +41,12 @@ body {
   font-weight: normal;
   margin-left: 3.75rem;
 }
-.header__item a:hover {
-  color: $nitro-blue;
+.header__shop-now {
+  text-decoration: none;
+  color: #5bacc3;
+  font-weight: normal;
+  margin-left: 3.75rem;
 }
-
 
 .header__logo-word {
   font-weight: lighter;
@@ -67,4 +63,8 @@ body {
 a {
   text-decoration: none;
   color: #393939;
+}
+
+a.header__shop-now {
+  color: #5bacc3;
 }
