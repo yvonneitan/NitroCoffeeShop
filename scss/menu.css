@@ -78,6 +78,17 @@ a {
   margin: auto;
 }
 
+.menu__logo::before {
+  content: "";
+  position: absolute;
+  width: 18.75rem;
+  height: 12.5rem;
+  border: 0.3125rem solid #5bacc3;
+  box-sizing: border-box;
+  top: 23rem;
+  left: 34.5rem;
+}
+
 .menu__logo-title {
   position: relative;
   color: white;
