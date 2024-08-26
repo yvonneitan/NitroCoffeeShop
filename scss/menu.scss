@@ -111,22 +111,4 @@
   @extend %centered-text;
   font-weight: lighter;
   font-size: $font-large;
-  color: $secondary-color;
-  margin: 0;
-}
-
-.menu-item__decription {
-  @extend %centered-text;
-  margin-left: 32%;
-  width: 40%;
-  font-style: italic;
-  font-weight: lighter;
-}
-.menu-item__prices{
-  @extend %centered-text;
-  color: $nitro-blue;
-}
-
-footer p {
-  @extend %centered-text;
-}
+  color: $second

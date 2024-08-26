@@ -311,12 +311,6 @@ main {
   top: 15%;
   left: 65%;
 }
-
-.different__can {
-  width: 160px;
-  height: 300px;
-}
-
 .different__tiltedcan::before {
   content: "";
   position: absolute;
@@ -326,6 +320,11 @@ main {
   box-sizing: border-box;
   top: -30%;
   left: -85%;
+}
+
+.different__can {
+  width: 160px;
+  height: 300px;
 }
 
 different__tiltedcan:hover {
@@ -342,7 +341,6 @@ different__tiltedcan:hover {
   color: white;
   border: none;
 }
-
 .different__learn-more::before {
   content: "";
   position: absolute;
