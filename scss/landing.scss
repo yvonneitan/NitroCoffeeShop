@@ -29,6 +29,17 @@ main {
   border: none;
   cursor: pointer;
 }
+.about__shop-now::before{
+  content: "";                 
+  position: absolute;
+  width: 11.25rem;
+  height: 3.5rem;            
+  border: 0.15rem solid #393939;    
+  box-sizing: border-box;
+  top:32.25rem;
+  left:7.75rem;
+
+}
 .about__content {
   width: 37.5rem;
   margin-left: 6.25rem;
@@ -187,7 +198,6 @@ main {
   width: 160px;
   height: 300px;
 }
-
 
 .discount {
   background-color: #393939;
