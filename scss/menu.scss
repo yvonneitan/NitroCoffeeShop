@@ -1,8 +1,5 @@
 @use "./partials/global" as *;
 
-
-
-
 .menu {
   background-image: url(../assets/images/coffee-circle.jpg);
   width: 100%;
@@ -103,4 +100,24 @@
 
 .drinks-category {
   text-align: center;
-  
+  font-weight: lighter;
+  font-size: $font-large;
+  color: $secondary-color;
+  margin: 0;
+}
+
+.menu-item__decription {
+  margin-left: 32%;
+  width: 40%;
+  font-style: italic;
+  text-align: center;
+  font-weight: lighter;
+}
+.menu-item__prices{
+  color: $nitro-blue;
+  text-align:center;
+}
+
+footer p {
+  text-align: center;
+}
