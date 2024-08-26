@@ -239,7 +239,6 @@ main {
   overflow: hidden;
   cursor: pointer;
 }
-
 .view-all::before {
   content: "";
   position: absolute;

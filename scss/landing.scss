@@ -143,18 +143,18 @@ main {
   border: none;
   overflow: hidden;
   cursor: pointer;
-}
-.view-all::before {
-  content: "";
-  position: absolute;
-  width: 11.25rem;
-  height: 3.5rem;
-  border: 0.125rem solid #393939;
-  box-sizing: border-box;
-  top: 97.5rem;
-  left: 34rem;
-}
 
+  &::before {
+    content: "";
+    position: absolute;
+    width: 11.25rem;
+    height: 3.5rem;
+    border: 0.125rem solid #393939;
+    box-sizing: border-box;
+    top: 97.5rem;
+    left: 34rem;
+  }
+}
 .products__view-all {
   @extend %centered-text;
   margin-top: 1.25rem;

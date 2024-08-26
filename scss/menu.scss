@@ -15,6 +15,20 @@
   height: 12.5rem;
   margin: auto;
 }
+.menu__logo{
+
+&::before{
+  content: "";                 
+  position: absolute;
+  width: 18.75rem;
+  height: 12.5rem;            
+  border: 0.3125rem solid #5bacc3;    
+  box-sizing: border-box;
+  top:23rem;
+  left:34.5rem;
+
+}
+}
 .menu__logo-title {
   @extend %centered-text;
   position: relative;
@@ -67,35 +81,34 @@
   background-color:$bg-white;
  
 }
-
-
 .category-wrapper-pink {
-  background-color: #fff0ed;
+  background-color: $nitro-pink;
   width: 100%;
 }
 .category-wrapper-white {
-  background-color: white;
+  background-color: $bg-white;
   width: 100%;
 }
 .category-section#cold-drinks {
-  background-color:white;
+  background-color: $bg-white;
  
 }
 
 .category-section {
-  background-color: #fff0ed;
+  background-color: $nitro-pink;
   display: inline-block;
   width: 100%;
 }
 
 .menu-items {
+  @extend %centered-text;
   font-weight: lighter;
   font-size: $font-medium;
-  text-align: center;
+  
 }
 
 .drinks-category {
-  text-align: center;
+  @extend %centered-text;
   font-weight: lighter;
   font-size: $font-large;
   color: $secondary-color;
@@ -103,17 +116,17 @@
 }
 
 .menu-item__decription {
+  @extend %centered-text;
   margin-left: 32%;
   width: 40%;
   font-style: italic;
-  text-align: center;
   font-weight: lighter;
 }
-.mennu-item__prices{
-  color: #5bacc3;
-  text-align:center;
+.menu-item__prices{
+  @extend %centered-text;
+  color: $nitro-blue;
 }
 
 footer p {
-  text-align: center;
+  @extend %centered-text;
 }
