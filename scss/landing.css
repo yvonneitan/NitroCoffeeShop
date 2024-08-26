@@ -69,6 +69,18 @@ a.header__shop-now {
   color: #5bacc3;
 }
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.different__tiltedcan:hover {
+  animation: spin 2s linear infinite;
+}
+
 main {
   font-weight: lighter;
 }
@@ -222,6 +234,8 @@ main {
   background-color: #5bacc3;
   color: white;
   border: none;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .view-all::before {
@@ -238,6 +252,10 @@ main {
 .products__view-all {
   text-align: center;
   margin-top: 1.25rem;
+}
+
+.view-all:active::before {
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .different {
@@ -299,15 +317,19 @@ main {
   height: 300px;
 }
 
-.different__background::before {
+.different__tiltedcan::before {
   content: "";
-  position: relative;
-  width: 80rem;
-  height: 60rem;
-  border: 0.25rem solid #960e0e;
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  border: 0.3125rem solid #5bacc3;
   box-sizing: border-box;
-  top: 50%;
-  left: 20%;
+  top: -30%;
+  left: -85%;
+}
+
+different__tiltedcan:hover {
+  animation: spin 2s linear infinite;
 }
 
 .different__learn-more {
