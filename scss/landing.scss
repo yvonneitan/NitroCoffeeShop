@@ -1,5 +1,5 @@
 @use "./partials/global" as *;
-@use "./partials/animations" as*;
+@use "./partials/animations" as *;
 
 main {
   font-weight: lighter;
@@ -13,7 +13,7 @@ main {
   margin: 1.25rem;
   min-width: auto;
   font-weight: lighter;
-  font-size:$font-large;
+  font-size: $font-large;
 }
 .about__paragraph {
   width: 40%;
@@ -29,16 +29,15 @@ main {
   color: white;
   border: none;
 }
-.about__shop-now::before{
-  content: "";                 
+.about__shop-now::before {
+  content: "";
   position: absolute;
   width: 11.25rem;
-  height: 3.5rem;            
-  border: 0.125rem solid #393939;    
+  height: 3.5rem;
+  border: 0.125rem solid #393939;
   box-sizing: border-box;
-  top:32.25rem;
-  left:7.75rem;
-
+  top: 32.25rem;
+  left: 7.75rem;
 }
 .about__content {
   width: 37.5rem;
@@ -47,7 +46,7 @@ main {
 }
 
 .about__coffee-bag {
-  margin:$font-large;
+  margin: $font-large;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -56,22 +55,22 @@ main {
 .products {
   display: flex;
   flex-direction: column;
-  padding:$font-medium;
+  padding: $font-medium;
 }
 
 .products__title {
-@extend %centered-text;
+  @extend %centered-text;
   display: block;
   box-sizing: border-box;
   padding: 1.25rem;
   margin-top: 0;
   font-weight: lighter;
-  font-size:$font-large;
+  font-size: $font-large;
 }
 .products__container {
   display: inline-flex;
   justify-content: center;
-  padding:$font-medium;
+  padding: $font-medium;
 }
 
 .products__gallery {
@@ -85,10 +84,10 @@ main {
   align-items: center;
   box-sizing: border-box;
   justify-content: flex-end;
-  margin:$font-medium;
+  margin: $font-medium;
   border-radius: 0.625rem;
   width: 100%;
-  border:0.125rem solid #ddd;
+  border: 0.125rem solid #ddd;
   overflow: hidden;
   width: 18.75rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
@@ -120,10 +119,10 @@ main {
   margin-left: 1.25rem;
   margin-bottom: 0;
 }
-.quantity{
+.quantity {
   display: inline;
-  color:#393939;
-  margin-left:1.25rem;
+  color: #393939;
+  margin-left: 1.25rem;
   margin-right: 140px;
 }
 
@@ -145,16 +144,15 @@ main {
   overflow: hidden;
   cursor: pointer;
 }
-.view-all::before{
-  content: "";                 
+.view-all::before {
+  content: "";
   position: absolute;
   width: 11.25rem;
-  height: 3.5rem;            
-  border: 0.125rem solid #393939;    
+  height: 3.5rem;
+  border: 0.125rem solid #393939;
   box-sizing: border-box;
   top: 97.5rem;
   left: 34rem;
-
 }
 
 .products__view-all {
@@ -165,7 +163,7 @@ main {
   transform: translate(-50%, -50%) scale(1);
 }
 .different {
-  display:inline-flex;
+  display: inline-flex;
   padding: 40px;
   margin-left: 6.25rem;
   margin-top: 6.25rem;
@@ -181,7 +179,7 @@ main {
   margin-bottom: 1.25rem;
   min-width: auto;
   font-weight: lighter;
-  font-size:$font-large;
+  font-size: $font-large;
 }
 
 .different__descriptions {
@@ -198,11 +196,11 @@ main {
 }
 
 .different__image {
-  width:$font-large;
+  width: $font-large;
   height: auto;
 }
 .different_coldbrewbackground {
-  position: relative; 
+  position: relative;
 }
 
 .different__background {
@@ -221,7 +219,7 @@ main {
   width: 160px;
   height: 300px;
 }
-.different__tiltedcan::before{
+.different__tiltedcan::before {
   content: "";
   position: absolute;
   width: 25rem;
@@ -230,12 +228,11 @@ main {
   box-sizing: border-box;
   top: -30%;
   left: -85%;
-  
 }
 different__tiltedcan:hover {
-  animation: spin 2s linear infinite; 
+  animation: spin 2s linear infinite;
 }
-.different__learn-more{
+.different__learn-more {
   width: 11.25rem;
   color: $bg-white;
   background-color: $nitro-blue;
@@ -244,18 +241,16 @@ different__tiltedcan:hover {
   background-color: $nitro-blue;
   color: $bg-white;
   border: none;
- 
 }
-.different__learn-more::before{
-  content: "";                 
+.different__learn-more::before {
+  content: "";
   position: absolute;
   width: 11.25rem;
-  height: 3.5rem;            
-  border: 0.125rem solid #393939;    
+  height: 3.5rem;
+  border: 0.125rem solid #393939;
   box-sizing: border-box;
   top: 140rem;
   left: 10.25rem;
-
 }
 .discount {
   background-color: #393939;

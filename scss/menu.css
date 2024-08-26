@@ -89,24 +89,6 @@ a.header__shop-now {
   margin: auto;
 }
 
-.menu__logo {
-  background-color: #393939;
-  width: 18.75rem;
-  height: 12.5rem;
-  margin: auto;
-  position: relative;
-}
-.menu__logo::before {
-  content: "";
-  position: absolute;
-  width: 18.75rem;
-  height: 12.5rem;
-  border: 0.3125rem solid #5bacc3;
-  box-sizing: border-box;
-  top: 23rem;
-  left: 29.75rem;
-}
-
 .menu__logo-title {
   position: relative;
   color: white;
@@ -162,12 +144,24 @@ a.header__shop-now {
   background-color: white;
 }
 
+.category-wrapper-pink {
+  background-color: #fff0ed;
+  width: 100%;
+}
+
+.category-wrapper-white {
+  background-color: white;
+  width: 100%;
+}
+
+.category-section#cold-drinks {
+  background-color: white;
+}
+
 .category-section {
   background-color: #fff0ed;
-  display: flex;
-  flex-direction: column;
-  margin-left: 23%;
-  width: 50%;
+  display: inline-block;
+  width: 100%;
 }
 
 .menu-items {
@@ -192,7 +186,7 @@ a.header__shop-now {
   font-weight: lighter;
 }
 
-.menu-item__prices {
+.mennu-item__prices {
   color: #5bacc3;
   text-align: center;
 }
