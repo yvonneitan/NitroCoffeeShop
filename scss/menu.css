@@ -171,4 +171,32 @@ a.header__shop-now {
 }
 
 .menu-items {
-  font
+  font-weight: lighter;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.drinks-category {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 3.75rem;
+  color: #393939;
+  margin: 0;
+}
+
+.menu-item__decription {
+  margin-left: 32%;
+  width: 40%;
+  font-style: italic;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.menu-item__prices {
+  color: #5bacc3;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}/*# sourceMappingURL=menu.css.map */

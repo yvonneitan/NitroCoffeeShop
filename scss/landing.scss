@@ -201,3 +201,95 @@ main {
   width:$font-large;
   height: auto;
 }
+.different_coldbrewbackground {
+  position: relative; 
+}
+
+.different__background {
+  width: 25rem;
+  margin-left: 25rem;
+}
+
+.different__tiltedcan {
+  position: absolute;
+  width: auto;
+  top: 15%;
+  left: 65%;
+}
+
+.different__can {
+  width: 160px;
+  height: 300px;
+}
+.different__tiltedcan::before{
+  content: "";
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  border: 0.3125rem solid $nitro-blue;
+  box-sizing: border-box;
+  top: -30%;
+  left: -85%;
+  
+}
+different__tiltedcan:hover {
+  animation: spin 2s linear infinite; 
+}
+.different__learn-more{
+  width: 11.25rem;
+  color: $bg-white;
+  background-color: $nitro-blue;
+  margin: 1.25rem;
+  padding: 1.25rem 1.25rem;
+  background-color: $nitro-blue;
+  color: $bg-white;
+  border: none;
+ 
+}
+.different__learn-more::before{
+  content: "";                 
+  position: absolute;
+  width: 11.25rem;
+  height: 3.5rem;            
+  border: 0.125rem solid #393939;    
+  box-sizing: border-box;
+  top: 140rem;
+  left: 10.25rem;
+
+}
+.discount {
+  background-color: #393939;
+  color: $bg-white;
+  font-size: 2.8em;
+  font-weight: 400;
+  margin: 10rem;
+  padding: 1.25rem;
+}
+.discount__code {
+  @extend %centered-text;
+}
+
+.footer__contact {
+  background-color: $nitro-pink;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__section-title {
+  font-weight: lighter;
+  margin-bottom: 0.625rem;
+}
+.bolded {
+  font-weight: bold;
+}
+
+.social__image img {
+  width: 3.125rem;
+  margin-right: 0.625rem;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+}
