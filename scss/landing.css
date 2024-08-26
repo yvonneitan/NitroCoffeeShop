@@ -93,7 +93,6 @@ main {
   background-color: #5bacc3;
   color: white;
   border: none;
-  cursor: pointer;
 }
 
 .about__shop-now::before {
@@ -210,6 +209,17 @@ main {
   border: none;
 }
 
+.view-all::before {
+  content: "";
+  position: absolute;
+  width: 11.25rem;
+  height: 3.5rem;
+  border: 0.15rem solid #393939;
+  box-sizing: border-box;
+  top: 223.75%;
+  left: 43.25%;
+}
+
 .products__view-all {
   text-align: center;
   margin-top: 1.25rem;
@@ -274,41 +284,12 @@ main {
   height: 300px;
 }
 
-.discount {
-  background-color: #393939;
+.different__learn-more {
+  width: 11.25rem;
   color: white;
-  font-size: 2.8em;
-  font-weight: 400;
-  margin: 10rem;
-  padding: 1rem;
-}
-
-.discount__code {
-  text-align: center;
-}
-
-.footer__contact {
-  background-color: #fff0ed;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.footer__section-title {
-  font-weight: lighter;
-  margin-bottom: 0.625rem;
-}
-
-.bolded {
-  font-weight: bold;
-}
-
-.social__link img {
-  width: 3.125rem;
-  margin-right: 0.625rem;
-}
-
-.footer {
-  display: flex;
-  width: 100%;
-}/*# sourceMappingURL=landing.css.map */
+  background-color: #5bacc3;
+  margin: 1.25rem;
+  padding: 1.25rem 1.25rem;
+  background-color: #5bacc3;
+  color: white;
+  border:
