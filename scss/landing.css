@@ -175,6 +175,7 @@ main {
 }
 
 .products__cost {
+  display: inline;
   background-color: #fff0ed;
   width: inherit;
   height: 6.25rem;
@@ -194,15 +195,22 @@ main {
 .products__name {
   font-size: 1.125rem;
   margin: 0.625rem 0;
-  margin-left: 2rem;
+  margin-left: 1.25rem;
   margin-bottom: 0;
 }
 
+.quantity {
+  display: inline;
+  color: #393939;
+  margin-left: 1.25rem;
+  margin-right: 140px;
+}
+
 .products__prices {
+  display: inline;
   color: #5bacc3;
   text-align: center;
   font-weight: bold;
-  margin-left: 70%;
   padding-bottom: 1rem;
   margin-top: 0;
 }
@@ -223,8 +231,8 @@ main {
   height: 3.5rem;
   border: 0.125rem solid #393939;
   box-sizing: border-box;
-  top: 97.3rem;
-  left: 39rem;
+  top: 97.5rem;
+  left: 34rem;
 }
 
 .products__view-all {
@@ -276,19 +284,30 @@ main {
 
 .different__background {
   width: 25rem;
-  margin-left: 37.5rem;
+  margin-left: 25rem;
 }
 
 .different__tiltedcan {
   position: absolute;
   width: auto;
   top: 15%;
-  left: 72%;
+  left: 65%;
 }
 
 .different__can {
   width: 160px;
   height: 300px;
+}
+
+.different__background::before {
+  content: "";
+  position: relative;
+  width: 80rem;
+  height: 60rem;
+  border: 0.25rem solid #960e0e;
+  box-sizing: border-box;
+  top: 50%;
+  left: 20%;
 }
 
 .different__learn-more {
@@ -309,7 +328,7 @@ main {
   height: 3.5rem;
   border: 0.125rem solid #393939;
   box-sizing: border-box;
-  top: 142rem;
+  top: 140rem;
   left: 10.25rem;
 }
 
@@ -319,7 +338,7 @@ main {
   font-size: 2.8em;
   font-weight: 400;
   margin: 10rem;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 
 .discount__code {
@@ -342,7 +361,7 @@ main {
   font-weight: bold;
 }
 
-.social__link img {
+.social__image img {
   width: 3.125rem;
   margin-right: 0.625rem;
 }
